@@ -1,23 +1,22 @@
 # Table of contents
 
-* [Get Started](README.md)
+* [Introduction](README.md)
 
-## The Basics
+## Core Terms
 
-* [Spaces](the-basics/spaces.md)
-* [Collections](the-basics/collections.md)
-* [The GitBook editor](the-basics/the-gitbook-editor.md)
-* [Live edit and locked edits](the-basics/live-edit-and-locked-edits.md)
-* [Change requests](the-basics/change-requests.md)
-
-## Publishing
-
-* [Publishing your content](publishing/publishing-your-content.md)
+* [Collections](core-terms/collections.md)
+* [Spaces](core-terms/spaces/README.md)
+  * [Page 1](core-terms/spaces/page-1.md)
+* [The GitBook editor](core-terms/the-gitbook-editor.md)
+* [Live edit and locked edits](core-terms/live-edit-and-locked-edits.md)
+* [Change requests](core-terms/change-requests.md)
 
 ## Tips and tricks
 
 * [Speed up with quick find](tips-and-tricks/speed-up-with-quick-find.md)
 
-## Next steps
+## Contributing
 
-* [What next?](next-steps/what-next.md)
+* [Where to start](contributing/where-to-start.md)
+* [Editing in GitBook](contributing/editing-in-gitbook.md)
+* [Editing on GitHub](contributing/editing-on-github.md)
