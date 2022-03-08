@@ -26,4 +26,3 @@ Task 43 is specifically focused on the issues of digitalization in wind energy:
 More information can be found on the Task 43 website
 {% endembed %}
 
-*
