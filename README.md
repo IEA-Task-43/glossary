@@ -2,7 +2,17 @@
 coverY: 0
 ---
 
-# Introduction
+# Task 43 Glossary
+
+## Introduction
+
+During the Task 43 Metadata Challenge (and many other branches of the Task 43 work) it was recognised that a common set of definitions that the community could refer to would be very helpful - lots of discussion has gone on throughout various subtasks and meetings simply bringing people toward a common dialogue.
+
+#### What This Glossary Is Not
+
+* This is NOT a god-given set of definitions, each respecting the absolute tiniest intricacies.
+* This is NOT comprehensive - we will never capture every single term around data, so retain only those most useful to the community.
+* This is NOT absolutely correct - there are different definitions of these terms out in the world, and we've done our best but be wary of this when discussing terms with others, especially outside the circle of people who are engaged with Task 43. It's always worth being precise!
 
 ## IEA Task 43
 
@@ -16,12 +26,4 @@ Task 43 is specifically focused on the issues of digitalization in wind energy:
 More information can be found on the Task 43 website
 {% endembed %}
 
-## Glossary
-
-During the Task 43 Metadata Challenge (and many other branches of the Task 43 work) it was recognised that a common set of definitions that the community could refer to would be very helpful - lots of discussion has gone on throughout various subtasks and meetings simply bringing people toward a common dialogue.
-
-#### What This Glossary Is Not
-
-* This is NOT a god-given set of definitions, each respecting the absolute tiniest intricacies.
-* This is NOT comprehensive - we will never capture every single term around data, so retain only those most useful to the community.
-* This is NOT absolutely correct - there are different definitions of these terms out in the world, and we've done our best but be wary of this when discussing terms with others, especially outside the circle of people who are engaged with Task 43. It's always worth being precise!
+*

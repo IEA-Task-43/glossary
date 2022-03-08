@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Task 43 Glossary](README.md)
 
 ## Terms
 
