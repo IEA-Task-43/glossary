@@ -1,11 +1,38 @@
-# Live edit and locked edits
+# Metadata
 
-## Live edit
+> “Data that provides information about other data” \[[wikipedia](https://en.wikipedia.org/wiki/Metadata)]
 
-You might have noticed that you can pretty much edit anything in this space. This is because the space is in what's know as **live edit** mode. In this mode, anyone who has permission can edit the content directly. This is great for early-days use. It is great for quick changes. No need for complex workflows.
+Structured (and often standardised) information associated with a resource, that provides information about the resource itself.
 
-At some point, you may reach a greater level of maturity with your content. That's when you may need some of the more powerful workflow features in GitBook…
+### About Metadata
 
-## Locked edits
+Information provided by metadata may include: what, who, when, where, how, content, quality, condition or other characteristics
 
-The alternative to a live edit mode is called **locked edits**. Spaces that are locked for live edits aren't directly editable, and any edits you need to make must be handled through **change requests**. You can lock a space using the space menu and selecting 'Lock live edits'.
+Metadata may provide [context](context.md) and [pragmatics](pragmatics.md) to the dataset. It may be general or domain-specific.
+
+### Types of Metadata
+
+#### Administrative Metadata
+
+Information about the creators or suppliers of the data, or terms under which it is available.
+
+{% hint style="info" %}
+**Example:** Author, date created, organisation, license
+{% endhint %}
+
+#### Descriptive Metadata
+
+The descriptive information about data.
+
+{% hint style="info" %}
+**Example:** Topic, external conditions, models, assumptions made
+{% endhint %}
+
+#### Structural Metadata
+
+Information about how the data is structured.
+
+{% hint style="info" %}
+**Example:** Format, size, file type, properties, reference to a schema
+{% endhint %}
+

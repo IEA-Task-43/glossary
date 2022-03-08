@@ -1,17 +1,35 @@
-# The GitBook editor
+# Syntax
 
-Everything you've read so far has been in the **editor**. This window right here is where all your page content comes together.
+A set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in a language or data format. Syntax therefore refers to the form of the data or code, and is contrasted with [semantics](collections.md) – the meaning.
 
-## Block-based
 
-The Editor is full of all sorts of content blocks, like this hint:
 
-{% hint style="info" %}
-**Check me out!** I’m an editable 'hint' block, and I think I look pretty great 💅
-{% endhint %}
+<details>
 
-You can access the block list at any time by hitting `CMD + /` (`CTRL + /` on Windows) to bring up a filterable list of blocks. Or you can check out our documentation for a full list of blocks with examples.
+<summary>Examples</summary>
 
-## A note on markdown
+The following expresses semantically identical metadata using different syntaxes, in this case JSON (JavaScript Object Notation) and HTML (HyperText Markup Language) with opengraph attributes.
 
-While the editor supports most common Markdown decorators, behind the scenes, GitBook is converting this to a document format that works with our block-based editor.
+```
+<head>
+    <meta property="og:type" content="article">
+    <meta name="description" content="Science to build on">
+</head>
+```
+
+```
+{
+  "type": "article",
+  "description": "Science to build on",
+}
+```
+
+</details>
+
+### Useful syntax for metadata
+
+Subjectivity alert!!!! We think the following syntax will be useful for the Task 43 members but this is by no means exhaustive:
+
+* [OWL (Web Ontology Language)](https://www.w3.org/TR/owl-semantics/syntax.html#:\~:text=An%20OWL%20ontology%20in%20the,imports%20references%20to%20other%20ontologies.)
+* [JSON (Javascript Object Notation)](https://www.json.org/json-en.html)
+* [OpenGraph](https://ogp.me)
