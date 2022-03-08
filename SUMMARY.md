@@ -2,29 +2,25 @@
 
 * [Introduction](README.md)
 
-## Core Terms
+## Terms
 
-* [Attribute](core-terms/attribute.md)
-* [Category](core-terms/category.md)
-* [Class](core-terms/class.md)
-* [Concept](core-terms/concept.md)
-* [Context](core-terms/context.md)
-* [FAIR principles](core-terms/fair-principles.md)
-* [Metadata](core-terms/live-edit-and-locked-edits.md)
-* [Ontology](core-terms/ontology.md)
-* [Pragmatics](core-terms/pragmatics.md)
-* [Property](core-terms/property.md)
-* [Schema](core-terms/schema.md)
-* [Schema Language](core-terms/schema-language.md)
-* [Semantics](core-terms/collections.md)
-* [Syntax](core-terms/the-gitbook-editor.md)
-* [Taxonomy](core-terms/taxonomy.md)
-* [Uniform Resource Identifier](core-terms/uniform-resource-identifier.md)
-* [Vocabulary](core-terms/change-requests.md)
-
-## Tips and tricks
-
-* [Speed up with quick find](tips-and-tricks/speed-up-with-quick-find.md)
+* [Attribute](terms/attribute.md)
+* [Category](terms/category.md)
+* [Class](terms/class.md)
+* [Concept](terms/concept.md)
+* [Context](terms/context.md)
+* [FAIR principles](terms/fair-principles.md)
+* [Metadata](terms/live-edit-and-locked-edits.md)
+* [Ontology](terms/ontology.md)
+* [Pragmatics](terms/pragmatics.md)
+* [Property](terms/property.md)
+* [Schema](terms/schema.md)
+* [Schema Language](terms/schema-language.md)
+* [Semantics](terms/collections.md)
+* [Syntax](terms/the-gitbook-editor.md)
+* [Taxonomy](terms/taxonomy.md)
+* [Uniform Resource Identifier](terms/uniform-resource-identifier.md)
+* [Vocabulary](terms/change-requests.md)
 
 ## Contributing
 
