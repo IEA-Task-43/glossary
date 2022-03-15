@@ -32,3 +32,6 @@ Task 43 is specifically focused on the issues of digitalization in wind energy:
 More information can be found on the Task 43 website
 {% endembed %}
 
+{% embed url="https://github.com/IEA-Task-43" %}
+Find software and utilities published by IEA Task 43
+{% endembed %}
