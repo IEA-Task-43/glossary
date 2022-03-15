@@ -4,7 +4,6 @@
 
 ## Terms
 
-* [Yu Ding Example](terms/yu-ding-example.md)
 * [Attribute](terms/attribute.md)
 * [Category](terms/category.md)
 * [Class](terms/class.md)
