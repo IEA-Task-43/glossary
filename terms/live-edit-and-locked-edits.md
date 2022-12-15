@@ -17,7 +17,9 @@ Metadata may provide [context](context.md) and [pragmatics](pragmatics.md) to th
 Information about the creators or suppliers of the data, or terms under which it is available.
 
 {% hint style="info" %}
-**Example:** Author, date created, organisation, license
+**Example**
+
+Author, date created, organisation, license
 {% endhint %}
 
 #### Descriptive Metadata
@@ -25,7 +27,9 @@ Information about the creators or suppliers of the data, or terms under which it
 The descriptive information about data.
 
 {% hint style="info" %}
-**Example:** Topic, external conditions, models, assumptions made
+**Example**
+
+Topic, external conditions, models, assumptions made
 {% endhint %}
 
 #### Structural Metadata
@@ -33,5 +37,7 @@ The descriptive information about data.
 Information about how the data is structured.
 
 {% hint style="info" %}
-**Example:** Format, size, file type, properties, reference to a [schema](schema.md)
+**Example**
+
+Format, size, file type, properties, reference to a [schema](schema.md)
 {% endhint %}
