@@ -1,6 +1,6 @@
 # Taxonomy
 
-A taxonomy models a [class](class.md) hierarchy. It is a classification scheme, especially a hierarchical classification, in which things are organized into groups or types.
+A taxonomy models a [class](class.md) hierarchy. It is a classification scheme, especially a hierarchical classification, in which things are organized into groups or types. A taxonomy is a type of terminology-based ontology, where different terms are related using a subset operator.
 
 
 
