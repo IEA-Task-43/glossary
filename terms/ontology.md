@@ -36,3 +36,12 @@ Therefore for the purpose of knowledge representation in the context of metadata
 Example: OWL Ontology Language is based on Description Logics, OWL Ontology consists of : Classes, Properties (Roles), Individuals (Instances of classes) OWL OntologyAssumptions: open world (absence of information is NOT valued as False), and No unique names (ex. WIndTurbineA can be same as WIndTurbineB, unless expressed explicitly)
 
 </details>
+
+
+
+
+{% hint style="info" %} *Note
+
+It can be useful to classify ontologies as being designed to deal with an open world or closed world. In other words, whether or not the content of the ontology is modular.
+
+Formally, the open and closed world ontologies can be described as "assertion box"  \[[Reiter, 1980](https://dl.acm.org/doi/pdf/10.1145/322186.322189)]  \[[Brodie, 2012](https://link.springer.com/book/10.1007/978-1-4612-5196-5)  and "terminology box" \[[Lutz, 2012](http://www.informatik.uni-bremen.de/tdki/research/papers/2012/LutSeyWo-DL12.pdf). The assertion box is essentially a database, which expresses member assertions. The terminology box is designed for modular schema, specifying concepts and relations. Using this encoded knowledge many diverse databases can be queried using the same semantics. It is possible to represent subclass relationships ($\subseteq$) and equivalence ($\equiv$), conjunction ($\cap$), disjunction ($\cup$), negation ($\neg$), property restrictions ($\forall$, $\exists$), tautology ($\top$), and contradiction ($\bot$).  
