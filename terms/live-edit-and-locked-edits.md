@@ -4,40 +4,53 @@
 
 Structured (and often standardised) information associated with a resource, that provides information about the resource itself.
 
-### About Metadata
+Metadata provides [context](context.md) and [pragmatics](pragmatics.md) (which may be general or domain-specific) for its resource.
 
-Information provided by metadata may include: what, who, when, where, how, content, quality, condition or other characteristics
+{% hint style="success" %}
+**Purpose**
 
-Metadata may provide [context](context.md) and [pragmatics](pragmatics.md) to the dataset. It may be general or domain-specific.
+Metadata allows you to:
 
-### Types of Metadata
-
-#### Administrative Metadata
-
-Information about the creators or suppliers of the data, or terms under which it is available.
-
-{% hint style="info" %}
-**Example**
-
-Author, date created, organisation, license
+* Make resources [findable](fair-principles.md), by providing a high-level overview which can be inserted into a search index
+* Make resources [reusable](fair-principles.md), by providing information about how they were generated in the first place.
 {% endhint %}
 
-#### Descriptive Metadata
+## Types of Metadata
 
-The descriptive information about data.
+{% tabs %}
+{% tab title="Administrative" %}
+Administrative metadata is information about the creators or suppliers of the data, or terms under which it is available, such as:
 
-{% hint style="info" %}
-**Example**
+* Author
+* Date create
+* Organisation
+* License
+{% endtab %}
 
-Topic, external conditions, models, assumptions made
-{% endhint %}
+{% tab title="Descriptive" %}
+Descriptive metadata contains information related to the data content such as:
 
-#### Structural Metadata
+* Topic
+* External conditions
+* Content
+* Quality
+* Assumptions made
+* Provenance
+{% endtab %}
 
-Information about how the data is structured.
+{% tab title="Structural" %}
+Structural metadata contains information about the data storage or transmission format, such as:
 
-{% hint style="info" %}
-**Example**
+* Size
+* File type
+* Data structure (eg properties, and or reference to a [schema](schema.md))
+{% endtab %}
+{% endtabs %}
 
-Format, size, file type, properties, reference to a [schema](schema.md)
-{% endhint %}
+## Useful syntaxes for metadata
+
+We think the following syntaxes will be most useful for definition (but this is by no means an exhaustive list):
+
+* [OWL (Web Ontology Language)](https://www.w3.org/TR/owl-semantics/syntax.html)
+* [JSON (Javascript Object Notation)](https://www.json.org/json-en.html)
+* [OpenGraph](https://ogp.me)

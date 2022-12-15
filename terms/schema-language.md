@@ -3,6 +3,8 @@
 A method of expressing the contents of a [schema](schema.md) that is a combination of [syntax](the-gitbook-editor.md) (usually a unique syntax for a given schema language) with some [semantics](collections.md) particular to writing schema.
 
 {% hint style="success" %}
+**Deliverable**
+
 Task 43 has been evaluating different Schema Languages based on their features and the needs of the community. The [comparisons table is here](https://docs.google.com/spreadsheets/d/1\_iskx2hJ8TOEOygPN\_9ecfQNFHSlgKmNomQr5xXsxJY/edit?usp=sharing) - a fuller report with better descriptions of the features and why they're relevant is pending.
 {% endhint %}
 
@@ -16,15 +18,17 @@ Examples of Schema Languages include:
 * German\*,
 * and many others…
 
-{% hint style="warning" %}
-\*A Schema Language _could_ simply be a plain language like English or German - although a linguistic solution struggles to meet FAIR Principles, being difficult to search and hard for machines to parse unambiguously.
+{% hint style="info" %}
+**\*Note**
+
+A Schema Language _could_ simply be a plain language like English or German - although a linguistic solution struggles to meet FAIR Principles, being difficult to search and hard for machines to parse unambiguously.
 {% endhint %}
 
 ### Some examples of schema in different languages
 
 {% tabs %}
 {% tab title="JSONSchema" %}
-Let's take data in JSON format:&#x20;
+Let's take data in JSON format:
 
 ```
 {
@@ -68,8 +72,6 @@ JSON Schema is a Schema language that is a proposed IETF standard for how to ans
   "required": ["productId", "productName", "price"]
 }
 ```
-
-&#x20;
 {% endtab %}
 
 {% tab title="XMLSchema" %}
@@ -99,12 +101,7 @@ A schema written in plain English, translated from the JSONSchema example.
 > I need you to tell me the product name, which must be text, and a unique identifying integer for that product. I also need to know the price of the product, which can't be less than or equal to zero. You may also tell me some key words associated with the project to aid in its description.
 
 {% hint style="danger" %}
-This seems a bit facetious, because we'd never actually write schema like this... But it's important to illustrate that we actually \*can\* - and frequently, this is how schemas start: as a discussion about what data you need.&#x20;
+This seems a bit facetious, because we'd never actually write schema like this... But it's important to illustrate that we actually \*can\* - and frequently, this is how schemas start: as a discussion about what data you need.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
