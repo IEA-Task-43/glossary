@@ -12,6 +12,7 @@
 * [FAIR principles](terms/fair-principles.md)
 * [Metadata](terms/live-edit-and-locked-edits.md)
 * [Ontology](terms/ontology.md)
+* [Pipeline](terms/pipeline.md)
 * [Pragmatics](terms/pragmatics.md)
 * [Property](terms/property.md)
 * [Schema](terms/schema.md)
@@ -19,6 +20,7 @@
 * [Semantics](terms/collections.md)
 * [Syntax](terms/the-gitbook-editor.md)
 * [Taxonomy](terms/taxonomy.md)
+* [Transformation](terms/transformation.md)
 * [Uniform Resource Identifier](terms/uniform-resource-identifier.md)
 * [Vocabulary](terms/change-requests.md)
 

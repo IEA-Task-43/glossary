@@ -33,6 +33,5 @@ The descriptive information about data.
 Information about how the data is structured.
 
 {% hint style="info" %}
-**Example:** Format, size, file type, properties, reference to a schema
+**Example:** Format, size, file type, properties, reference to a [schema](schema.md)
 {% endhint %}
-
