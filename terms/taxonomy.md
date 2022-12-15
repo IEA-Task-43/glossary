@@ -20,3 +20,8 @@ What’s the difference between taxonomy and ontology? Do we need both??&#x20;
 
 </details>
 
+
+{% hint style="note" %}
+**Note**
+
+By organizing a [vocabulary][vocabulary.md] as a taxonomy, we can see how different entries are related to one another and how they fit into the overall structure of the vocabulary. This can make it easier to learn and use the vocabulary, and can also help understand the meanings of the entries and how they are used in different contexts. %}
