@@ -36,3 +36,13 @@ Therefore for the purpose of knowledge representation in the context of metadata
 Example: OWL Ontology Language is based on Description Logics, OWL Ontology consists of : Classes, Properties (Roles), Individuals (Instances of classes) OWL OntologyAssumptions: open world (absence of information is NOT valued as False), and No unique names (ex. WIndTurbineA can be same as WIndTurbineB, unless expressed explicitly)
 
 </details>
+
+**Disambiguation**
+An ontology is technically equivalent to a schema. Both are formal specifications of some conceptualisation or abstract world model.
+
+From its usage in the Semantic Web community and the broader knowledge-based systems community, the term 'schema' is used to refer to simple conceptualisations, as might be written using less expressive knowledge representation languages such as RDF Schema (so making explicit the relationship between ontologies and database schemas). Conversely, the term 'ontology' is taken to describe more complex models, written in more expressive languages (OWL, DAML+OIL, Ontolingua, KIF, etc).
+
+There is a school of thought that considers ontologies to contain rule-based knowledge in addition to a relational characterisation, but this is far less prevalent in the SW community than elsewhere.
+
+ 
+{% endhint %}
