@@ -44,6 +44,7 @@ Descriptive metadata contains information related to the data content such as:
 {% tab title="Structural" %}
 Structural metadata are data about how a dataset or resource came about, but also how it is internally structured. Structural metadata describe, for example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc. Structural metadata have to be gathered by the researchers according to best practice in their research community and will be published together with the data. Descriptive and structural metadata should be added continuously throughout the project
 {% endtab %}
+{% endtabs}
 
 ## Useful syntaxes for metadata
 
