@@ -10,6 +10,7 @@ By "defined semantics" we mean that it is expressed in a particular [schema lang
 Schema allow you to:
 
 * de-risk projects involving data,
+* Scope a data campaign. This is how to be strategic about what data you capture
 * build robust data [transformations](transformation.md) and [pipelines](pipeline.md), and
 * communicate with other stakeholders about the data you require (or provide).
 {% endhint %}
