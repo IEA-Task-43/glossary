@@ -19,6 +19,12 @@ Metadata allows you to:
 
 The [How To Fair](https://howtofair.dk/how-to-fair/metadata/) project describes three different types of metadata, Administrative, Description and Structural.
 
+{% hint style="success" %}
+**Purpose**
+
+Thinking about types of metadata helps you to decide **who** should be producing/updating metadata and **when** that should happen.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Administrative" %}
 Administrative metadata is relevant for managing data, for example:
@@ -102,8 +108,6 @@ Content and format will usually be defined by researchers or engineers planning 
 All such metadata should (ideally) be established _a priori_ to data generation (see ["de-risking a project](schema.md#example-uses-for-schema)"), but may evolve during the lifetime of a data resource.
 {% endtab %}
 {% endtabs %}
-
-
 
 ## Useful syntaxes for metadata
 
