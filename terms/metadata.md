@@ -1,8 +1,8 @@
 # Metadata
 
-> “Data that provides information about other data” \[[wikipedia](https://en.wikipedia.org/wiki/Metadata)]
+Data that provides information about other data \[[wikipedia](https://en.wikipedia.org/wiki/Metadata)].
 
-Structured (and often standardised) information associated with a resource, that provides information about the resource itself.
+Metadata is structured (and often standardised) information associated with a (data) resource, that provides information about the resource itself.
 
 Metadata provides [context](context.md) and [pragmatics](pragmatics.md) (which may be general or domain-specific) for its resource.
 
@@ -17,34 +17,93 @@ Metadata allows you to:
 
 ## Types of Metadata
 
+The [How To Fair](https://howtofair.dk/how-to-fair/metadata/) project describes three different types of metadata, Administrative, Description and Structural.
+
 {% tabs %}
 {% tab title="Administrative" %}
-Administrative metadata is information about the creators or suppliers of the data, or terms under which it is available, such as:
+Administrative metadata is relevant for managing data, for example:
 
-* Author
-* Date create
+* Project
+* Resource owner
+* Collaborators
+* Funder
 * Organisation
 * License
+
+These can usually be assigned before you collect or create the data resource itself.
 {% endtab %}
 
-{% tab title="Descriptive" %}
-Descriptive metadata contains information related to the data content such as:
+{% tab title="Descriptive (citation)" %}
+Descriptive (_citation_) metadata allows people to discover and identify the resource:
 
+* Author
+* Title
+* Abstract
+* Keywords
 * Topic
+* Persistent identifier
+* Related resources
+
+These are usually assigned at the point of publication.
+
+{% hint style="info" %}
+**Tip**
+
+To facilitate data discovery, descriptive metadata can be made far more powerful than merely a citation.
+
+For example, "find data containing rainfall in Africa last year" requires that a search index or graph is populated with temporal and locational values extracted from the data or its structural metadata.
+
+In such cases "structural" metadata might also be thought of as "descriptive", and the lines blur between them. Extra search fields might include, for example:
+
+* Datetimes or ranges
+* Geolocations
 * External conditions
-* Content
-* Quality
-* Assumptions made
-* Provenance
-* * Size
-* File type
-* Data structure (eg properties, and or reference to a [schema](schema.md))
+* Other content-derived fields
+* Data type
+{% endhint %}
 {% endtab %}
 
-{% tab title="Structural" %}
-Structural metadata are data about how a dataset or resource came about, but also how it is internally structured. Structural metadata describe, for example, the unit of analysis, collection method, sampling procedure, sample size, categories, variables, etc. Structural metadata have to be gathered by the researchers according to best practice in their research community and will be published together with the data. Descriptive and structural metadata should be added continuously throughout the project
+{% tab title="Structural (provenance)" %}
+{% hint style="warning" %}
+The [definition of structural metadata from the How To Fair project](https://howtofair.dk/how-to-fair/metadata/) incorporates two aspects, we've differentiated them into "provenance" and "form" for clarity.
+{% endhint %}
+
+Structural (provenance) metadata are data about how a resource came about, for example:
+
+* Collection method
+* Sampling procedure
+* Assumptions made
+* Researcher notes
+
+These metadata have to be gathered by the researchers according to best practice in their research community. They should be added continuously throughout data generation and processing.
+
+{% hint style="info" %}
+**Tip**
+
+The semantics used in defining the data and its structural metadata should provide meaning and context to the data in a formal and machine-readable way. However, where richer meaning or context is difficult or impossible to formally capture, this structural metadata should be used to convey such information.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Structural (form)" %}
+{% hint style="warning" %}
+The [definition of structural metadata from the How To Fair project](https://howtofair.dk/how-to-fair/metadata/) incorporates two aspects, we've differentiated them into "provenance" and "form" for clarity.
+{% endhint %}
+
+Structural (form) metadata are data about how a resource is internally structured, including for example:
+
+* Data size
+* Storage details (eg file types, encodings and/or database details)
+* Content and format (data structure)
+  * Specified directly, by listing Categories, Variables, Column Names, Types, Relations etc, or
+  * Specified indirectly, by referencing an external [schema](schema.md) or [ontology](ontology.md).
+
+Content and format will usually be defined by researchers or engineers planning the project, while storage details will usually be defined by the data engineering team tasked with maintaining infrastructure.
+
+All such metadata should (ideally) be established _a priori_ to data generation (see ["de-risking a project](schema.md#example-uses-for-schema)"), but may evolve during the lifetime of a data resource.
 {% endtab %}
 {% endtabs %}
+
+
 
 ## Useful syntaxes for metadata
 
