@@ -11,19 +11,19 @@
 * [Concept](terms/concept.md)
 * [Context](terms/context.md)
 * [FAIR principles](terms/fair-principles.md)
-* [Metadata](terms/live-edit-and-locked-edits.md)
+* [Metadata](terms/metadata.md)
 * [Ontology](terms/ontology.md)
 * [Pipeline](terms/pipeline.md)
 * [Pragmatics](terms/pragmatics.md)
 * [Property](terms/property.md)
 * [Schema](terms/schema.md)
 * [Schema Language](terms/schema-language.md)
-* [Semantics](terms/collections.md)
-* [Syntax](terms/the-gitbook-editor.md)
+* [Semantics](terms/semantics.md)
+* [Syntax](terms/syntax.md)
 * [Taxonomy](terms/taxonomy.md)
 * [Transformation](terms/transformation.md)
 * [Uniform Resource Identifier](terms/uniform-resource-identifier.md)
-* [Vocabulary](terms/change-requests.md)
+* [Vocabulary](terms/vocabulary.md)
 
 ## Contributing
 
