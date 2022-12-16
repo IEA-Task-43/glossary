@@ -13,17 +13,17 @@ Metadata allows you to:
 
 * Make resources [findable](fair-principles.md), by providing a high-level overview which can be inserted into a search index
 * Make resources [reusable](fair-principles.md), by providing information about how they were generated in the first place.
+
+Thinking about types of metadata allows you to:
+
+* Decide **who** should be produce metadata and **when** that should happen
 {% endhint %}
 
 ## Types of Metadata
 
-The [How To Fair](https://howtofair.dk/how-to-fair/metadata/) project describes three different types of metadata, Administrative, Description and Structural.
+The [How To Fair](https://howtofair.dk/how-to-fair/metadata/) project describes three different types of metadata, Administrative, Description and Structural. Wikipedia [defines many more](https://en.wikipedia.org/wiki/Metadata)!
 
-{% hint style="success" %}
-**Purpose**
-
-Thinking about types of metadata helps you to decide **who** should be producing/updating metadata and **when** that should happen.
-{% endhint %}
+How To Fair's Structural metadata description incorporates two aspects, we've differentiated them into "provenance" and "form" to help highlight the different roles and times.&#x20;
 
 {% tabs %}
 {% tab title="Administrative" %}
@@ -70,11 +70,7 @@ In such cases "structural" metadata might also be thought of as "descriptive", a
 {% endtab %}
 
 {% tab title="Structural (provenance)" %}
-{% hint style="warning" %}
-The [definition of structural metadata from the How To Fair project](https://howtofair.dk/how-to-fair/metadata/) incorporates two aspects, we've differentiated them into "provenance" and "form" for clarity.
-{% endhint %}
-
-Structural (provenance) metadata are data about how a resource came about, for example:
+Structural (provenance) metadata describes how a resource came about, for example:
 
 * Collection method
 * Sampling procedure
@@ -86,16 +82,12 @@ These metadata have to be gathered by the researchers according to best practice
 {% hint style="info" %}
 **Tip**
 
-The semantics used in defining the data and its structural metadata should provide meaning and context to the data in a formal and machine-readable way. However, where richer meaning or context is difficult or impossible to formally capture, this structural metadata should be used to convey such information.
+The [semantics](semantics.md) used in defining the data and its structural metadata should provide meaning and context to the data in a formal and machine-readable way. However, where richer meaning or context is difficult or impossible to formally capture, this structural metadata should be used to convey such information.
 {% endhint %}
 {% endtab %}
 
 {% tab title="Structural (form)" %}
-{% hint style="warning" %}
-The [definition of structural metadata from the How To Fair project](https://howtofair.dk/how-to-fair/metadata/) incorporates two aspects, we've differentiated them into "provenance" and "form" for clarity.
-{% endhint %}
-
-Structural (form) metadata are data about how a resource is internally structured, including for example:
+Structural (form) metadata describes how a resource is internally structured, for example:
 
 * Data size
 * Storage details (eg file types, encodings and/or database details)
@@ -103,9 +95,9 @@ Structural (form) metadata are data about how a resource is internally structure
   * Specified directly, by listing Categories, Variables, Column Names, Types, Relations etc, or
   * Specified indirectly, by referencing an external [schema](schema.md) or [ontology](ontology.md).
 
-Content and format will usually be defined by researchers or engineers planning the project, while storage details will usually be defined by the data engineering team tasked with maintaining infrastructure.
+Structural (form) metadata arises from the decisions taken by the data engineering team, who should architect their infrastructure in close collaboration with researchers to anticipate size, content and format.
 
-All such metadata should (ideally) be established _a priori_ to data generation (see ["de-risking a project](schema.md#example-uses-for-schema)"), but may evolve during the lifetime of a data resource.
+These details should (ideally) be established _a priori_ to data generation (see ["de-risking a project](schema.md#example-uses-for-schema)"), but may evolve throughout the lifetime of a resource.
 {% endtab %}
 {% endtabs %}
 
