@@ -2,6 +2,8 @@
 
 > “Data that provides information about other data” \[[wikipedia](https://en.wikipedia.org/wiki/Metadata)]
 
+Metadata is defined as data about data. It gives context to the data it describes. Although this is a complete definition of what metadata is, it is not specific enough for most people. So, it can be useful to refine the idea of metadata to more specific subsets: [schemas][schema.md], [vocabularies][vocabulary.md], and ontologies[ontology.md].
+
 Structured (and often standardised) information associated with a resource, that provides information about the resource itself.
 
 Metadata provides [context](context.md) and [pragmatics](pragmatics.md) (which may be general or domain-specific) for its resource.
