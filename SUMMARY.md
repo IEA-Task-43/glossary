@@ -7,6 +7,7 @@
 * [Attribute](terms/attribute.md)
 * [Category](terms/category.md)
 * [Data Management](terms/data-management.md)
+* [Data Model](terms/data-model.md)
 * [Class](terms/class.md)
 * [Concept](terms/concept.md)
 * [Context](terms/context.md)
