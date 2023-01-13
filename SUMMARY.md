@@ -8,6 +8,7 @@
 * [Category](terms/category.md)
 * [Data Management](terms/data-management.md)
 * [Data Model](terms/data-model.md)
+* [Data Science](terms/data-science.md)
 * [Class](terms/class.md)
 * [Concept](terms/concept.md)
 * [Context](terms/context.md)
