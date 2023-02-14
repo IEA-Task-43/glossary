@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Task 43 Glossary](README.md)
+* [IEA Wind Task 43 Glossary](README.md)
 
 ## Terms
 

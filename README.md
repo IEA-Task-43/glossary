@@ -1,4 +1,4 @@
-# Task 43 Glossary
+# IEA Wind Task 43 Glossary
 
 This is a glossary of terms for use by scientists and engineers in the wind energy industry.
 
@@ -20,7 +20,7 @@ During the Task 43 Metadata Challenge (and many other branches of the Task 43 wo
 * This is NOT comprehensive - we will never capture every single term around data, so we try to retain only those most useful to the community or where there seems to be most confusion.
 * This is NOT absolutely correct - there are different definitions of these terms out in the world, and we've done our best but be wary of this when discussing terms with others, especially outside the circle of people who are engaged with Task 43. It's always worth being precise!
 
-## About IEA Task 43
+## About IEA Task 43 Wind
 
 The International Energy Agency Wind Technology Collaboration Programme (IEA Wind TCP) is an international co-operation that shares information and research activities to advance wind energy research, development and deployment in member countries.
 
