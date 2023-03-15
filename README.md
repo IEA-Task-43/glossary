@@ -4,6 +4,9 @@ This is a glossary of terms for use by scientists and engineers in the wind ener
 
 The goal is to help improve our ability to digitalise analyses, processes and knowledge: ultimately to enable more effective communication and collaboration.
 
+Gitbook Interface
+[https://iea-task-43.gitbook.io/iea-task-43-glossary/](https://iea-task-43.gitbook.io/iea-task-43-glossary/) 
+
 ## About
 
 During the Task 43 Metadata Challenge (and many other branches of the Task 43 work) it was recognised that a common set of definitions that the community could refer to would be very helpful - lots of discussion has gone on throughout various subtasks and meetings simply bringing people toward a common dialogue.
@@ -28,10 +31,8 @@ Task 43 is specifically focused on the issues of digitalization in wind energy:
 
 > _Our mission is to help bring about a revolution in the way the wind energy industry uses technology. We aim to provide a platform for dissemination of great ideas, best practices and collaboration. Specifically we are working to understand the optimal pathways for the adoption of digital technologies such as:_
 
-{% embed url="https://www.ieawindtask43.org" %}
-More information can be found on the Task 43 website
-{% endembed %}
 
-{% embed url="https://github.com/IEA-Task-43" %}
-Find software and utilities published by IEA Task 43
-{% endembed %}
+More information can be found on the Task 43 website [https://www.ieawindtask43.org](https://www.ieawindtask43.org)
+
+Find software and utilities published by IEA Task 43 [https://github.com/IEA-Task-43](https://www.ieawindtask43.org)
+
