@@ -2,6 +2,8 @@
 
 This is a glossary of terms for use by scientists and engineers in the wind energy industry.
 
+If you're reading this on our GitHub repository - [you can find the published glossary here](https://iea-task-43.gitbook.io/iea-task-43-glossary/)!
+
 The goal is to help improve our ability to digitalise analyses, processes and knowledge: ultimately to enable more effective communication and collaboration.
 
 ## About
